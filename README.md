@@ -2,9 +2,6 @@
 
 A beginner-friendly stock analysis application built with **Streamlit**, **Ollama**, **LangChain**, and **LangGraph**. This app fetches real-time stock data and uses AI to provide financial analysis and investment recommendations. The entire app is under 300 lines of clean, well-commented code perfect for learning!
 
-![Stock Analysis Agent](https://img.shields.io/badge/Python-3.10+-blue.svg)
-![Lines of Code](https://img.shields.io/badge/Lines_of_Code-276-blue.svg)
-![License](https://img.shields.io/badge/License-MIT-green.svg)
 
 ## ✨ Features
 
@@ -100,16 +97,6 @@ The app will open in your browser at `http://localhost:8501`
 - **NVDA** - NVIDIA Corporation
 - **AMZN** - Amazon.com Inc.
 
-## 📁 Project Structure
-
-```
-01-LangGraph_Stock_Agent/
-│
-├── app.py                 # Main application file
-├── requirements.txt       # Python dependencies
-└── README.md             # This file
-```
-
 ## 🔧 Code Structure (Tutorial Sections)
 
 The code is organized into 5 clear sections for easy learning:
@@ -135,14 +122,6 @@ The code is organized into 5 clear sections for easy learning:
 - `main()`: Complete Streamlit interface with tabs and visualizations
 
 ## 🎓 Learning Path
-
-This project is perfect for learning:
-
-1. **Streamlit Basics**: Building interactive web apps
-2. **LangChain**: Working with LLMs and prompts
-3. **LangGraph**: Creating stateful agent workflows
-4. **API Integration**: Fetching real-time data
-5. **Financial Data**: Understanding stock metrics
 
 ## ⚙️ Configuration
 
@@ -184,16 +163,6 @@ ollama serve
 ollama pull llama3.2
 ```
 
-### Yahoo Finance data not loading
-
-**Solution**: Check your internet connection and try a different ticker symbol. Some tickers may have limited data.
-
-### Slow LLM responses
-
-**Solution**:
-- Use a smaller model (phi)
-- Reduce the amount of data being analyzed
-- Ensure Ollama has sufficient system resources
 
 ## 📊 Sample Output
 
@@ -217,46 +186,4 @@ The app provides:
    - Risk level
    - Buy/Hold/Sell recommendation
 
-## 🤝 Contributing
 
-This is a tutorial project! Feel free to:
-- Add new features
-- Improve the UI
-- Add more financial metrics
-- Integrate additional data sources
-
-## 📝 License
-
-MIT License - Feel free to use this code for learning and projects!
-
-## 🙏 Acknowledgments
-
-- **Streamlit** for the amazing framework
-- **LangChain** for LLM orchestration
-- **Ollama** for local LLM inference
-- **Yahoo Finance** for free stock data
-
-## 📺 YouTube Tutorial
-
-*Coming soon!*
-
-## 💡 Future Enhancements
-
-- [ ] Add historical price charts
-- [ ] Compare multiple stocks
-- [ ] Technical indicators (RSI, MACD, etc.)
-- [ ] Save analysis history
-- [ ] Export reports to PDF
-- [ ] Add more LLM providers (OpenAI, Anthropic)
-- [ ] Stock screening functionality
-
-## 📞 Support
-
-If you encounter issues:
-1. Check the troubleshooting section
-2. Ensure all prerequisites are installed
-3. Verify Ollama is running with llama3.2 model
-
----
-
-**Happy Stock Analyzing! 📈🤖**
